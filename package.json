@@ -1,0 +1,7 @@
+{
+  "name": "gatsby-plugin-babel-exclude",
+  "version": "1.0.0",
+  "description": "A Gatsby plugin to exclude modules from babel-loader.",
+  "author": "tu4mo",
+  "license": "ISC"
+}
