@@ -1,7 +1,16 @@
 {
   "name": "gatsby-plugin-babel-exclude",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Gatsby plugin to exclude modules from babel-loader.",
   "author": "tu4mo",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "babel-loader",
+    "babel",
+    "exclude",
+    "gatsby-plugin",
+    "gatsby",
+    "webpack"
+  ],
+  "homepage": "https://github.com/tu4mo/gatsby-plugin-babel-exclude"
 }
