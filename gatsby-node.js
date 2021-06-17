@@ -7,6 +7,12 @@ exports.onCreateWebpackConfig = ({ actions, getConfig }, pluginOptions) => {
     (rule) => String(rule.test) === BABEL_LOADER_RULE_TEST
   );
 
+  if (!babelLoaderRule) {
+    throw new Error(
+      `gatsby-plugin-babel-exclude: Could not find rule for ${BABEL_LOADER_RULE_TEST} from webpack config.`
+    );
+  }
+
   currentConfig.module.rules = [
     ...currentConfig.module.rules.filter(
       (rule) => String(rule.test) !== BABEL_LOADER_RULE_TEST
