@@ -1,4 +1,4 @@
-const BABEL_LOADER_RULE_TEST = String(/\.(js|mjs|jsx)$/);
+const BABEL_LOADER_RULE_TEST = String(/\.(js|mjs|jsx|ts|tsx)$/);
 
 exports.onCreateWebpackConfig = ({ actions, getConfig }, pluginOptions) => {
   const currentConfig = getConfig();
